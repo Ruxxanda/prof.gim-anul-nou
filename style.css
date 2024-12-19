@@ -1,0 +1,260 @@
+body {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(poze/fundal.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 20px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* zapada */
+.fulg {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+
+h1,
+h2,
+p,
+a,
+div {
+    font-family: "Roboto Slab";
+    margin: 0;
+}
+
+.content {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.content.x1 {
+    gap: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.buton {
+    background-color: #ff0000;
+    width: 100px;
+    height: 30px;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p.felicit {
+    font-size: 20px;
+}
+
+/* pagina cu bradul */
+.brad-text {
+    margin-top: -20px;
+    font-size: 2rem;
+    color: #00ff22;
+}
+
+.brad {
+    position: relative;
+    margin: auto;
+    width: 300px;
+    height: 500px;
+    background-image: url('poze/brad.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.ornament {
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    color: black;
+}
+
+.ornament.aliona {
+    background-image: url(poze/aliona.jpg);
+    background-size: cover;
+}
+
+.ornament.angela {
+    background-image: url(poze/angela.jpg);
+    background-size: cover;
+}
+
+.ornament.stela {
+    background-image: url(poze/stela.jpg);
+    background-size: cover;
+}
+
+.ornament.rodica {
+    background-image: url(poze/rodica.jpg);
+    background-size: cover;
+}
+
+.ornament.ala {
+    background-image: url(poze/ala.jpg);
+    background-size: cover;
+}
+
+.ornament.olga {
+    background-image: url(poze/olga.jpg);
+    background-size: cover;
+}
+
+.ornament.stelaherta {
+    background-image: url(poze/stelaherta.jpg);
+    background-size: cover;
+}
+
+.ornament.ira {
+    background-image: url(poze/ira.jpg);
+    background-size: cover;
+}
+
+.ornament.olimpiada {
+    background-image: url(poze/olimpiada.jpg);
+    background-size: cover;
+}
+
+.ornament.marin {
+    background-image: url(poze/marin.jpg);
+    background-size: cover;
+}
+
+.ornament.cristi {
+    background-image: url(poze/cristi.jpg);
+    background-size: cover;
+}
+
+.ornament.buzila {
+    background-image: url(poze/buzila.jpg);
+    background-size: cover;
+}
+
+.feedback {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #b20000a6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 310px;
+}
+
+.feedback button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+}
+
+.feedback button:hover {
+    background-color: #45a049;
+}
+
+.timer {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff0000;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* formular de trimitere a feedbak */
+#contact.contactare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-conteiner {
+    display: flex;
+    width: 100%;
+    border-radius: 12px;
+    gap: 30px;
+}
+
+/* Formularul */
+.contact-left {
+    margin: 0 20px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+/* Inputurile și textarea */
+.contact-left input[type="text"],
+.contact-left textarea {
+    font-family: "Roboto Slab";
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d32f2f;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.contact-left input[type="text"]:focus,
+.contact-left textarea:focus {
+    border-color: #388e3c;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Butonul */
+.contact-left .button {
+    font-family: "Roboto Slab";
+    background-color: #d32f2f;
+    color: #ffffff;
+    padding: 12px 24px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.contact-left .button:hover {
+    background-color: #388e3c;
+    transform: scale(1.05);
+}
